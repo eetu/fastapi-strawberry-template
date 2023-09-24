@@ -13,8 +13,7 @@ pyenv virtualenv flask-strawberry-template
 Install dependencies
 
 ```bash
-pip install flask[async] strawberry-graphql pytest pytest-asyncio pylint black
-
+pip install -r requirements.txt
 ```
 
 ## Development
