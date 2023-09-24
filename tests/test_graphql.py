@@ -1,7 +1,7 @@
 """Tests for Graphql query"""
 import pytest
 
-from flaskr import schema
+from flaskr import graphql
 
 
 @pytest.mark.asyncio
@@ -13,5 +13,5 @@ async def test_query():
       }
     """
 
-    result = await schema.schema.execute(query)
+    result = await graphql.schema.execute(query)
     assert result.data["message"] == "Hello world!"
