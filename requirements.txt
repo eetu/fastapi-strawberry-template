@@ -23,7 +23,7 @@ pytest==7.4.2
 pytest-asyncio==0.21.1
 python-dateutil==2.8.2
 six==1.16.0
-strawberry-graphql==0.209.2
+strawberry-graphql==0.209.4
 tomlkit==0.12.1
 typing_extensions==4.8.0
 Werkzeug==2.3.7
