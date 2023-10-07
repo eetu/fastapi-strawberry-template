@@ -2,12 +2,16 @@
 
 ## Install
 
-install [pyenv, pyenv-virtual](https://github.com/pyenv/pyenv) (with auto activation)
-
-Create virtual env, template was created with python 3.11.5
+Create virtualenv
 
 ```bash
-pyenv virtualenv flask-strawberry-template
+python -m venv .venv # template was tested with python 3.11.x but should work with version that supports ASGI
+```
+
+activate virtualenv
+
+```bash
+source .venv/bin/activate.fish # for fish shell
 ```
 
 Install dependencies
