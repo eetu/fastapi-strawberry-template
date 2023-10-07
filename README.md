@@ -25,32 +25,39 @@ pip install -r requirements.txt
 To start app
 
 ```bash
-flask --app flaskr run --debug
+uvicorn src.app:app --reload
 ```
 
 Call hello world route
 
 ```bash
-curl http://localhost:5000/hello
+curl http://localhost:8000/hello
 ```
 
 Call api rest route
 
 ```bash
 curl --request GET \
-  http://localhost:5000/api/
+  http://localhost:8000/api/
 ```
 
 Call graphql view
 
 ```bash
 curl --request POST \
-  --url http://localhost:5000/graphql \
+  --url http://localhost:8000/graphql \
   --header 'Content-Type: application/json' \
-  --data '{"query":"query {\n\thello\n}"}'
+  --data '{"query":"query {message}"}'
 ```
 
 ## Testing
+
+Run linter
+
+```bash
+python -m pylint src
+python -m black src --check
+```
 
 Run tests
 

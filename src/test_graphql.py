@@ -1,7 +1,7 @@
 """Tests for Graphql query"""
 import pytest
 
-from flaskr import graphql
+from . import graphql
 
 
 @pytest.mark.asyncio

@@ -1,5 +1,6 @@
-flask[async] == 2.3.3
-strawberry-graphql == 0.209.2
+fastapi == 0.103.2
+uvicorn[standard] == 0.23.2
+strawberry-graphql[fastapi] == 0.209.2
 pytest == 7.4.2
 pytest-asyncio == 0.21.1
 pylint == 2.17.5
