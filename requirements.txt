@@ -1,6 +1,6 @@
-flask[async] == 2.3.3
-strawberry-graphql == 0.209.2
+flask[async] == 3.0.0
+strawberry-graphql == 0.209.6
 pytest == 7.4.2
 pytest-asyncio == 0.21.1
-pylint == 2.17.5
+pylint == 3.0.1
 black == 23.9.1
