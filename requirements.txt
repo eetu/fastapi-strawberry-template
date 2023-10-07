@@ -1,7 +1,7 @@
 fastapi == 0.103.2
 uvicorn[standard] == 0.23.2
-strawberry-graphql[fastapi] == 0.209.2
+strawberry-graphql[fastapi] == 0.209.6
 pytest == 7.4.2
 pytest-asyncio == 0.21.1
-pylint == 2.17.5
+pylint == 3.0.1
 black == 23.9.1
