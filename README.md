@@ -17,31 +17,18 @@ source .venv/bin/activate.fish # for fish shell
 Install dependencies
 
 ```bash
-pip install -r requirements.txt
+make install
 ```
 
 ## Development
 
-To start app
+To start development server
 
 ```bash
-uvicorn src.app:app --reload
+make dev
 ```
 
-Call hello world route
-
-```bash
-curl http://localhost:8000/hello
-```
-
-Call api rest route
-
-```bash
-curl --request GET \
-  http://localhost:8000/api/
-```
-
-Call graphql view
+Query graphql
 
 ```bash
 curl --request POST \
@@ -55,13 +42,13 @@ curl --request POST \
 Run linter
 
 ```bash
-python -m pylint src
-python -m black src --check
+make lint
+make lint_fix # reformat code
 ```
 
 Run tests
 
 ```bash
-python -m pytest
+make test
 
 ```
