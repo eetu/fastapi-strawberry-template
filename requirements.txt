@@ -1,5 +1,5 @@
 fastapi == 0.104.0
-uvicorn[standard] == 0.24.0
+uvicorn[standard] == 0.24.0.post1
 strawberry-graphql[fastapi] == 0.211.1
 pytest == 7.4.3
 pytest-asyncio == 0.21.1
