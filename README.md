@@ -1,4 +1,4 @@
-# Python Flask with Strawberry template
+# Python FastAPI with Strawberry template
 
 ## Install
 
