@@ -1,4 +1,4 @@
-# Python Fast-API with Strawberry template
+# Python FastAPI with Strawberry template
 
 ## Install
 
