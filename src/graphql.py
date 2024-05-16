@@ -1,4 +1,5 @@
 """Module to provide graphql schema"""
+
 import strawberry
 
 
