@@ -1,4 +1,5 @@
 """Tests for Graphql query"""
+
 import pytest
 
 from . import graphql
