@@ -1,7 +1,7 @@
-fastapi == 0.111.0
-uvicorn[standard] == 0.29.0
-strawberry-graphql[fastapi] == 0.229.1
-pytest == 8.2.0
-pytest-asyncio == 0.23.6
-pylint == 3.2.0
+fastapi == 0.111.1
+uvicorn[standard] == 0.30.3
+strawberry-graphql[fastapi] == 0.236.0
+pytest == 8.3.1
+pytest-asyncio == 0.23.8
+pylint == 3.2.6
 black == 24.4.2
