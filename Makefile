@@ -23,7 +23,7 @@ install: .venv
 
 .PHONY: dev
 dev:
-	$(PYTHON) -m uvicorn src.app:app --reload
+	$(PYTHON) -m fastapi dev
 
 .PHONY: test
 test:
@@ -31,12 +31,12 @@ test:
 
 .PHONY: lint
 lint:
-	$(PYTHON) -m pylint src
-	$(PYTHON) -m black src --check
+	$(PYTHON) -m pylint app
+	$(PYTHON) -m black app --check
 
 .PHONY: lint_fix
 lint_fix:
-	$(PYTHON) -m black src
+	$(PYTHON) -m black app
 
 .PHONY: clean
 clean:
