@@ -8,18 +8,15 @@ on:
 
 jobs:
   build:
+    name: "Run tests"
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        python-version: [3.11.x]
-
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Python ${{ matrix.python-version }}
+      - uses: actions/checkout@v4
+      - name: Use Python 3.11.x
         uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.11.x"
       - run: make install
       - run: make lint
       - run: make test
