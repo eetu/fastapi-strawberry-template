@@ -1,6 +1,6 @@
 fastapi[standard] == 0.116.1
 uvicorn[standard] == 0.35.0
-strawberry-graphql[fastapi] == 0.275.6
+strawberry-graphql[fastapi] == 0.276.0
 pytest == 8.4.1
 pytest-asyncio == 1.0.0
 pylint == 3.3.7
