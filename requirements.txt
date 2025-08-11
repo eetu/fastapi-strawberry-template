@@ -3,5 +3,5 @@ uvicorn[standard] == 0.35.0
 strawberry-graphql[fastapi] == 0.278.1
 pytest == 8.4.1
 pytest-asyncio == 1.1.0
-pylint == 3.3.7
+pylint == 3.3.8
 black == 25.1.0
