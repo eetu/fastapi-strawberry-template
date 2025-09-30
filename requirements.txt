@@ -1,4 +1,4 @@
-fastapi[standard] == 0.117.1
+fastapi[standard] == 0.118.0
 uvicorn[standard] == 0.37.0
 strawberry-graphql[fastapi] == 0.282.0
 pytest == 8.4.2
