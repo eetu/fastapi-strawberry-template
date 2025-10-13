@@ -1,7 +1,7 @@
-fastapi[standard] == 0.118.2
+fastapi[standard] == 0.119.0
 uvicorn[standard] == 0.37.0
-strawberry-graphql[fastapi] == 0.283.2
+strawberry-graphql[fastapi] == 0.283.3
 pytest == 8.4.2
 pytest-asyncio == 1.2.0
-pylint == 3.3.9
+pylint == 4.0.0
 black == 25.9.0
